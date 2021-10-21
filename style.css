@@ -12,11 +12,34 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 5px;
+    margin-bottom: 7px;
 }
 nav{
     height: 50px;
     background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 7px;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 300px;
+}
+aside{
+    flex-grow: 2;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    flex-grow: 8;
+    margin-left: 7px;
+    margin-right: 7px;
+    background-color: lightgrey;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,5 +50,5 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 5px;
+    margin-top: 7px;
 }
